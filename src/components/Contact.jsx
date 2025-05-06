@@ -11,7 +11,7 @@ const Contact = () => {
       </div>
       {contactData.map((item, index) => (
         <div className="contact-info" key={index}>
-          <strong>{item.label}:</strong>
+          <p><strong>{item.label}:</strong></p>
           <a href={item.link} target="_blank" rel="noreferrer">
             {item.value}
           </a>

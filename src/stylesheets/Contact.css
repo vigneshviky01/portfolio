@@ -1,6 +1,6 @@
 .contact-container {
     background: linear-gradient(180deg, #DEFFCA 0%, #9BEB6C 100%);
-    padding: 2rem 3rem;
+    padding: 30px 20px;
     width: 100%;
     font-size: 20px;
   }
@@ -13,6 +13,9 @@
   
   .contact-info {
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap:15px;
   }
   
  
@@ -20,7 +23,6 @@
   .contact-info a {
     text-decoration: none;
     color:black;
-    margin-left: 20px;
   }
   
   .contact-info a:hover {
@@ -31,5 +33,10 @@
     .contact-container {
       
         font-size: 16px;
+      }
+      .contact-info {
+      
+        flex-direction: column;
+        gap:5px;
       }
   }

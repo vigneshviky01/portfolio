@@ -30,3 +30,14 @@
   align-items: center;
   gap:30px;
 }
+
+@media (max-width: 768px) {
+  .logo{
+    font-family: 'Limelight';
+    font-size: 45px;
+  }
+  .logo-container{
+ 
+    gap:15px;
+  }
+}

@@ -45,8 +45,11 @@ gap:30px;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
+      
+    }
+    .skill-container-overall{
         margin: 20px;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .skill{
         font-size: 16px;
@@ -55,5 +58,8 @@ gap:30px;
     }
     .subskill{
         font-size: 16px;
+    }
+    .skillElement{
+        width:250px;
     }
 }

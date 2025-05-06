@@ -1,5 +1,5 @@
 .heading-about{
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -50,5 +50,9 @@ gap:100px;
     .LocAndEdu{
         font-size: 16px;
         gap:40px;
+    }
+    .about{
+        margin-top: 50px;
+        padding: 0px;
     }
 }

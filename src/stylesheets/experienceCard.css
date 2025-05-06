@@ -78,5 +78,8 @@
     .experience-header h2, .experience-description, .experience-achievements, .link-button{
         font-size: 16px;
     }
+    .experience-container{
+      margin-top: 50px;
+  }
   }
   
