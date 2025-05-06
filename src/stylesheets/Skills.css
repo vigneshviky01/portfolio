@@ -1,0 +1,59 @@
+.skill-container-overall{
+    margin: 20px;
+    margin-top: 100px;
+}
+.skills-container{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+gap:30px;
+}
+.skill{
+    background: linear-gradient(180deg, #DEFFCA 0%, #9BEB6C 100%);
+    font-size: 20px;
+    height: 120px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.skillElement{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 65px;
+    overflow: hidden;
+}
+.skillElement ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(32.13deg, #E3FDD4 7.82%, #FFFFFF 27.88%);
+}
+.subskill{
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .skills-container{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+        margin-top: 100px;
+    }
+    .skill{
+        font-size: 16px;
+        height: fit-content;
+        padding: 30px 0px;
+    }
+    .subskill{
+        font-size: 16px;
+    }
+}

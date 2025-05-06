@@ -1,0 +1,35 @@
+.contact-container {
+    background: linear-gradient(180deg, #DEFFCA 0%, #9BEB6C 100%);
+    padding: 2rem 3rem;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-info {
+    margin-bottom: 1rem;
+  }
+  
+ 
+  
+  .contact-info a {
+    text-decoration: none;
+    color:black;
+    margin-left: 20px;
+  }
+  
+  .contact-info a:hover {
+    color:blue;
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .contact-container {
+      
+        font-size: 16px;
+      }
+  }

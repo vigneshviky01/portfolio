@@ -1,0 +1,54 @@
+.heading-about{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about{
+    margin:20px;
+    margin-top: 100px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+gap:50px;
+padding: 20px 35px;
+}
+.objective{
+    background: linear-gradient(180deg, #9BEB6C 0%, #DEFFCA 100%);
+    width:650px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 40px;
+    border-radius: 95px;
+}
+
+.LocAndEdu{
+display: flex;
+font-size: 20px;
+justify-content: center;
+gap:100px;
+}
+.LocAndEdu p{
+    text-align: center;
+}
+.Edu{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+
+.Edu p{
+    text-align: start;
+}
+@media screen and (max-width:768px) {
+    .objective{
+        width:fit-content;
+        font-size: 16px;
+        padding: 30px 35px;
+        padding-top: 40px;
+    }
+    .LocAndEdu{
+        font-size: 16px;
+        gap:40px;
+    }
+}

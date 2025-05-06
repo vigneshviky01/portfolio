@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: 'Limelight';
+  src: url('./assets/fonts/Limelight-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KumbhSans';
+  src: url('./assets/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  padding:0px;
+  margin:0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: 'KumbhSans';
+}
+.logo{
+  font-family: 'Limelight';
+  font-size: 75px;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+}
